@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var change = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        VStack(spacing: 20) {
+            Text("Animation Sample").font(.largeTitle)
+            
+            Circle().foregroundColor(.orange)
+                .frame(width: 100, height: 100)
+                .offset(x:0, y: change ? 350 : 0)
+                .animation(.easeOut, value: change)
+            
+            Spacer()
+            Button("Change") {
+                self.change.toggle()
+            }.padding(.bottom)
+        }.font(.title)
         .padding()
     }
 }
