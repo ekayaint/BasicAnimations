@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		490DAB882A1795F90086D6CA /* Animation-Offset-Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB872A1795F90086D6CA /* Animation-Offset-Position.swift */; };
 		490DAB8A2A17983E0086D6CA /* Animation-Opacity-Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB892A17983E0086D6CA /* Animation-Opacity-Rotation.swift */; };
+		490DAB902A17CF480086D6CA /* Animation-Scaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB8F2A17CF480086D6CA /* Animation-Scaling.swift */; };
+		490DAB922A17D0E70086D6CA /* Animation-CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB912A17D0E70086D6CA /* Animation-CornerRadius.swift */; };
 		49D2E5872A12ADD100D9D2E2 /* BasicAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2E5862A12ADD100D9D2E2 /* BasicAnimationsApp.swift */; };
 		49D2E5892A12ADD100D9D2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2E5882A12ADD100D9D2E2 /* ContentView.swift */; };
 		49D2E58B2A12ADD200D9D2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D2E58A2A12ADD200D9D2E2 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		490DAB872A1795F90086D6CA /* Animation-Offset-Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-Offset-Position.swift"; sourceTree = "<group>"; };
 		490DAB892A17983E0086D6CA /* Animation-Opacity-Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-Opacity-Rotation.swift"; sourceTree = "<group>"; };
+		490DAB8F2A17CF480086D6CA /* Animation-Scaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-Scaling.swift"; sourceTree = "<group>"; };
+		490DAB912A17D0E70086D6CA /* Animation-CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-CornerRadius.swift"; sourceTree = "<group>"; };
 		49D2E5832A12ADD100D9D2E2 /* BasicAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2E5862A12ADD100D9D2E2 /* BasicAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationsApp.swift; sourceTree = "<group>"; };
 		49D2E5882A12ADD100D9D2E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				49D2E5942A12B24700D9D2E2 /* Sample2.swift */,
 				490DAB872A1795F90086D6CA /* Animation-Offset-Position.swift */,
 				490DAB892A17983E0086D6CA /* Animation-Opacity-Rotation.swift */,
+				490DAB8F2A17CF480086D6CA /* Animation-Scaling.swift */,
+				490DAB912A17D0E70086D6CA /* Animation-CornerRadius.swift */,
 			);
 			path = BasicAnimations;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			files = (
 				490DAB882A1795F90086D6CA /* Animation-Offset-Position.swift in Sources */,
 				49D2E5892A12ADD100D9D2E2 /* ContentView.swift in Sources */,
+				490DAB922A17D0E70086D6CA /* Animation-CornerRadius.swift in Sources */,
+				490DAB902A17CF480086D6CA /* Animation-Scaling.swift in Sources */,
 				49D2E5872A12ADD100D9D2E2 /* BasicAnimationsApp.swift in Sources */,
 				490DAB8A2A17983E0086D6CA /* Animation-Opacity-Rotation.swift in Sources */,
 				49D2E5952A12B24700D9D2E2 /* Sample2.swift in Sources */,
