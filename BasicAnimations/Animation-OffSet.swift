@@ -14,6 +14,7 @@ struct Animation_OffSet: View {
         VStack(spacing: 20) {
             Text("Animation Offset").font(.largeTitle)
             Spacer()
+            
             VStack(spacing: 1){
                 HStack(alignment: .bottom, spacing: 1){
                     Rectangle().frame(width: 70, height: 35)
@@ -28,7 +29,17 @@ struct Animation_OffSet: View {
                     Rectangle().frame(width: 72, height: 36)
                         .offset(x: change ? 0 : offsetValue)
                 }.offset(x: 18)
+            }.rotationEffect(.degrees(change ? 0 : -90))
+                .foregroundColor(change ? .red : .orange)
+                .opacity(change ? 1 : 0)
+                .animation(.default, value: change)
+            
+            Spacer()
+            Button("Change"){
+                self.change.toggle()
             }
+            Spacer()
+            
         }.font(.title)
     }
 }
