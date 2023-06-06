@@ -13,6 +13,7 @@
 		490DAB922A17D0E70086D6CA /* Animation-CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DAB912A17D0E70086D6CA /* Animation-CornerRadius.swift */; };
 		490DABB42A1A47E60086D6CA /* Animation-FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DABB32A1A47E60086D6CA /* Animation-FontSize.swift */; };
 		490DABB62A1A85910086D6CA /* Animation-ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490DABB52A1A85910086D6CA /* Animation-ProgressBar.swift */; };
+		492F8C642A2B6FD1003FEA3D /* Animation-Menu-Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F8C632A2B6FD1003FEA3D /* Animation-Menu-Card.swift */; };
 		4967CA1D2A1D2FE700E0EDB1 /* Animation-OffSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967CA1C2A1D2FE700E0EDB1 /* Animation-OffSet.swift */; };
 		49D2E5872A12ADD100D9D2E2 /* BasicAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2E5862A12ADD100D9D2E2 /* BasicAnimationsApp.swift */; };
 		49D2E5892A12ADD100D9D2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2E5882A12ADD100D9D2E2 /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 		490DAB912A17D0E70086D6CA /* Animation-CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-CornerRadius.swift"; sourceTree = "<group>"; };
 		490DABB32A1A47E60086D6CA /* Animation-FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-FontSize.swift"; sourceTree = "<group>"; };
 		490DABB52A1A85910086D6CA /* Animation-ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-ProgressBar.swift"; sourceTree = "<group>"; };
+		492F8C632A2B6FD1003FEA3D /* Animation-Menu-Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-Menu-Card.swift"; sourceTree = "<group>"; };
 		4967CA1C2A1D2FE700E0EDB1 /* Animation-OffSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation-OffSet.swift"; sourceTree = "<group>"; };
 		49D2E5832A12ADD100D9D2E2 /* BasicAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2E5862A12ADD100D9D2E2 /* BasicAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationsApp.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				490DABB32A1A47E60086D6CA /* Animation-FontSize.swift */,
 				490DABB52A1A85910086D6CA /* Animation-ProgressBar.swift */,
 				4967CA1C2A1D2FE700E0EDB1 /* Animation-OffSet.swift */,
+				492F8C632A2B6FD1003FEA3D /* Animation-Menu-Card.swift */,
 			);
 			path = BasicAnimations;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				49D2E5872A12ADD100D9D2E2 /* BasicAnimationsApp.swift in Sources */,
 				490DAB8A2A17983E0086D6CA /* Animation-Opacity-Rotation.swift in Sources */,
 				49D2E5952A12B24700D9D2E2 /* Sample2.swift in Sources */,
+				492F8C642A2B6FD1003FEA3D /* Animation-Menu-Card.swift in Sources */,
 				4967CA1D2A1D2FE700E0EDB1 /* Animation-OffSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
